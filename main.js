@@ -116,6 +116,7 @@ class Product {
     }
     this.productSelectors.smallImages[id].classList.add("active");
     console.log("a");
+    alert("test")
   }
 }
 
@@ -132,3 +133,8 @@ const instructions = `<span>lorem</span>`;
 
 const InfoTabs = [description, morInfo, instructions];
 const product = new Product(images, InfoTabs);
+
+
+function onSmallImageClick() {
+  alert("test")
+}
